@@ -1,12 +1,11 @@
-import { NavBar } from '../../components/NavBar/NavBar'
+import React from 'react'
 
-const index = () => {
+const Product = () => {
     return (
         <div>
-            <NavBar />
             <h1>Esta es la pagina de productos</h1>
         </div>
     )
 }
 
-export default index
+export default Product

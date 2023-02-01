@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-export default function id() {
+export default function ProductId() {
     const {
         query: { id },
     } = useRouter()
